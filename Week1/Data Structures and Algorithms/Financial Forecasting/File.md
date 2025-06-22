@@ -1,24 +1,22 @@
-# 📈 Exercise 7: Financial Forecasting
-
-## 🧠 1. Understanding Recursive Algorithms
+## 1. Understanding Recursive Algorithms
 
 Recursion is a technique where a function calls itself to solve smaller instances of a problem. It simplifies problems that are naturally repetitive or hierarchical. In financial forecasting, recursion can model compounding processes, making the logic easier to express and understand.
 
 ---
 
-## 🔧 2. Setup
+## 2. Setup
 
 A recursive method is used to compute the future value of an amount based on a consistent growth rate over a period of years.
 
 ---
 
-## 🛠️ 3. Implementation
+## 3. Implementation
 
 Using historical financial data, the average growth rate is calculated and used to project future values recursively. This allows forecasting based on patterns observed in past data.
 
 ---
 
-## ⏱️ 4. Analysis
+## 4. Analysis
 
 ### Time Complexity
 
@@ -32,7 +30,7 @@ Using historical financial data, the average growth rate is calculated and used 
 
 ---
 
-## 🧪 Optimization
+## Optimization
 
 To prevent excessive computation and stack overflow:
 
@@ -41,6 +39,6 @@ To prevent excessive computation and stack overflow:
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 Recursion provides a clean and intuitive way to model financial projections, but it should be optimized in real-world scenarios for efficiency. Memoization or converting to an iterative solution are practical strategies to enhance performance.
